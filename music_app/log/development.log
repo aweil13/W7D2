@@ -1,0 +1,8 @@
+  [1m[35m (1539.2ms)[0m  [1m[35mCREATE DATABASE "music_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (1173.0ms)[0m  [1m[35mCREATE DATABASE "music_app_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "music_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "music_app_test" ENCODING = 'unicode'[0m
+  [1m[35m (203.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "music_app_development"[0m
+  [1m[35m (194.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "music_app_test"[0m
+  [1m[35m (1228.9ms)[0m  [1m[35mCREATE DATABASE "music_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (1210.1ms)[0m  [1m[35mCREATE DATABASE "music_app_test" ENCODING = 'unicode'[0m
