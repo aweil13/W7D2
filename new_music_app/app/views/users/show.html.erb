@@ -1,0 +1,14 @@
+<h1>Current User</h1>
+
+<ul>
+    <li>
+        <%= @user.email %>
+    </li>
+</ul>
+
+
+    <form action='<%= user_url(@user) %>' method= "POST">
+        <%= form_auth_token %>
+        <input type="hidden" name="_method" value="DELETE">
+        <button>Delete this User</button>
+    </form>

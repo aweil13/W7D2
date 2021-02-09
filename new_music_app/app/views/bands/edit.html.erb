@@ -1,0 +1,12 @@
+<h1>Music App</h1>
+
+<h2>Edit the Band!</h2>
+
+<form action=<%= band_url(@band)%> method = "PATCH">
+    <%=form_auth_token %>
+    <label for="name">Band Name
+    <input type="text" name="band[name]" id="name" value=<%= @band.name %>>
+    </label>
+
+    <button>Edit Band</button>
+</form>

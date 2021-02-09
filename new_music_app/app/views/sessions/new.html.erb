@@ -1,8 +1,11 @@
-<h1>Log In</h1>
+<h1>Music App</h1>
+
+
+
+<h3>Log In</h3>
 
     <form action =<%= session_url %> method = "POST">
-        <%= form_auth_token %>
-
+        <%=form_auth_token %>
         <label for="email">Email
             <input type="text" name = "user[email" id= 
             "email" value= '<%= @user.email%>'>
@@ -12,6 +15,6 @@
             <input type="text" name="user[password]" id="password" value= '<%= @user.password %>'>
         </label>
 
-        <button>Submit</button>
+        <button>Log in</button>
 
     </form>
